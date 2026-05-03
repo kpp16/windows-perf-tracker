@@ -1,0 +1,21 @@
+[project]
+name = "windows-perf-track"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kairav Parekh",email = "kairav.parekh@outlook.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "psutil (>=7.2.2,<8.0.0)",
+    "wmi (>=1.5.1,<2.0.0)",
+    "rich (>=15.0.0,<16.0.0)",
+    "pynvml (>=13.0.1,<14.0.0)",
+    "pydantic (>=2.13.3,<3.0.0)"
+]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
